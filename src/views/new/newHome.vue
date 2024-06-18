@@ -41,19 +41,13 @@
                 <el-main>
                     <router-view></router-view>
                     <div class="buttonContainer">
-                        <router-link to="/">
-                            <div class="tab">
-                                <img class="image" src="@/assets/icon/icon-back.svg">
-                                <div class="text">返回旧版</div>
-                            </div>
-                        </router-link>
-                        <router-link to="/newHome/favorites">
+                        <router-link to="/favorites">
                         <div class="tab">
                             <img class="image" src="@/assets/icon/icon-favorites.svg">
                             <div class="text">收藏夹</div>
                         </div>
                         </router-link>
-                        <router-link to="/newHome/aboutUs">
+                        <router-link to="/aboutUs">
                             <div class="tab">
                                 <img class="image" src="@/assets/icon/icon-info.svg">
                                 <div class="text">关于</div>
