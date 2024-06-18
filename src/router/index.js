@@ -18,43 +18,11 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView,
-    children: [
-      {
-        path: 'subject/:lesson',
-        name: 'subject',
-        component: subject
-      },
-      {
-        path: 'rightWrong/:lesson',
-        name: 'rightWrong',
-        component: rightWrong
-      },
-      {
-        path: 'singleChoice/:lesson',
-        name: 'singleChoice',
-        component: singleChoice
-      },
-      {
-        path: 'multipleChoice/:lesson',
-        name: 'multipleChoice',
-        component: multipleChoice
-      },
-      {
-        path: 'fillingBlank/:lesson',
-        name: 'fillingBlank',
-        component: fillingBlank
-      }
-    ]
-  },
-  {
-    path: '/newHome',
     name: 'newHome',
     component: newHome,
     children: [
       {
-        path: '/',
+        path: '',
         component: theHome,
       },
       {
