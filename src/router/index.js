@@ -5,7 +5,7 @@ import aboutUs from "@/views/new/aboutUs.vue"
 import theHome from "@/views/new/theHome.vue"
 import questionList from "@/views/new/questionList.vue"
 import favorites from "@/views/new/favorites.vue"
-import examPage from "@/views/examPages.vue"
+import examPage from "@/views/examPage.vue"
 
 Vue.use(VueRouter)
 
