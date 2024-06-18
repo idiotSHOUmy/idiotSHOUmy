@@ -2,7 +2,7 @@
     <div id="newHome">
         <el-container>
             <el-aside width="262px">
-                <router-link to="/newHome">
+                <router-link to="/">
                     <div class="title">
                         <img src="@/assets/icon/github.svg" class="icon">
                         <div class="titleCover">
