@@ -1,28 +1,6 @@
 <template>
     <div id="aboutUs">
         <div class="info">
-<<<<<<< Updated upstream
-            <!-- <div class="officalLink box">
-                <div class="title">官网链接</div>
-                <a
-                    href="http://222.73.57.153:6571/file/student/html/practiceLogin.html?id=1705139277953761280">http://222.73.57.153:6571/file/student/html/practiceLogin.html?id=1705139277953761280</a>
-            </div> -->
-            <!-- <div class="projectAddress box">
-                <div class="title">项目地址</div>
-                <a href="https://github.com">
-                    <img src="@/assets/icon/github.svg" class="github">
-                </a>
-                <a href="https://github.com/fgh23333/crawler">https://github.com/fgh23333/crawler</a>
-                <a
-                    href="https://github.com/fgh23333/crawlerVisualization">https://github.com/fgh23333/crawlerVisualization</a>
-            </div> -->
-            <!-- <div class="members box">
-                <div class="title">制作成员</div>
-                <div class="member">爬虫 | 冯国昊 倪镭</div>
-                <div class="member">网页 | 冯国昊 倪镭</div>
-                <div class="member">设计 | 倪镭</div>
-            </div> -->
-=======
             <div class="members box">
                 <div class="title">Member</div>
                 <div class="member">idiotSHOUmy</div>
@@ -31,7 +9,6 @@
                 <div class="title">Contact Us</div>
                 <div class="contactWay">info@idiotSHOUmy.com</div>
             </div>
->>>>>>> Stashed changes
         </div>
     </div>
 </template>
