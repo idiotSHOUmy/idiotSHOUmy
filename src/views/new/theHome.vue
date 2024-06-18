@@ -6,11 +6,11 @@
   <div class="flex-col self-start group_3">
     <div class="group_2">
       <div class="group_5">
-        <span class="self-start text_6">HELLO...</span>
+        <span class="self-start text_6">Hello World</span>
       </div>
       <div class="flex-col self-start group_4">
         <div class="group_6">
-          <span class="text_8">这是一个第三方题库，仅供参考学习。</span>
+          <span class="text_8">Third-party question set, reference only.</span>
         </div>
       </div>
     </div>
@@ -28,21 +28,17 @@
   height: 98vh;
   display: flex;
   justify-content: center;
-  /* 水平居中 */
   align-items: center;
-  /* 垂直居中 */
 }
 
 .group_5 {
   display: flex;
   justify-content: left;
-  /* 水平居中 */
 }
 
 .group_6 {
   display: flex;
   justify-content: left;
-  /* 水平居中 */
 }
 
 .flex-col {
@@ -66,7 +62,7 @@
 
 .text_8 {
   color: #5f89d3;
-  font-size: 48px;
+  font-size: 40px;
   font-family: HarmonyOSSansSC;
   font-weight: 900;
   line-height: 46px;
