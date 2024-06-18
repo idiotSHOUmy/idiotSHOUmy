@@ -24,7 +24,7 @@
                             </transition>
                         </div>
                         <div class="questionType">
-                            <span v-if="$route.path == '/newHome/favorites'">
+                            <span v-if="$route.path == '/favorites'">
                                 {{ abbreviationSubjectList[list[i].abbreviationSubject] }} -
                             </span>
                             <span>判断</span>
@@ -56,7 +56,7 @@
                             </transition>
                         </div>
                         <div class="questionType">
-                            <span v-if="$route.path == '/newHome/favorites'">
+                            <span v-if="$route.path == '/favorites'">
                                 {{ abbreviationSubjectList[list[i].abbreviationSubject] }} -
                             </span>
                             <span>填空</span>
@@ -87,7 +87,7 @@
                             </transition>
                         </div>
                         <div class="questionType">
-                            <span v-if="$route.path == '/newHome/favorites'">
+                            <span v-if="$route.path == '/favorites'">
                                 {{ abbreviationSubjectList[list[i].abbreviationSubject] }} -
                             </span>
                             <span>单选</span>
@@ -124,7 +124,7 @@
                             </transition>
                         </div>
                         <div class="questionType">
-                            <span v-if="$route.path == '/newHome/favorites'">
+                            <span v-if="$route.path == '/favorites'">
                                 {{ abbreviationSubjectList[list[i].abbreviationSubject] }} -
                             </span>
                             <span>多选</span>
@@ -194,7 +194,7 @@ export default {
     created() {
         this.lesson = this.$route.params.lesson;
         this.type = this.$route.params.type;
-        if (this.$route.path == "/newHome/favorites") {
+        if (this.$route.path == "/favorites") {
             this.list = this.$store.state.wrongQuestions
         } else {
             if (this.type == 'rightWrong') {
@@ -275,7 +275,7 @@ export default {
                 this.addFavoriteQuestion(this.list[i]);
             } else {
                 this.removeFavoriteQuestion(this.list[i].id)
-                if (this.$route.path == "/newHome/favorites") {
+                if (this.$route.path == "/favorites") {
                     this.list = this.$store.state.wrongQuestions
                 }
             }
