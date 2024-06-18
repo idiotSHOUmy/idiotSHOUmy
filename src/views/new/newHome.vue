@@ -21,17 +21,17 @@
                             </template>
                             <el-menu-item-group>
                                 <el-menu-item class="option"
-                                    :index="'/newHome/subject/' + list[i].src">总题库</el-menu-item>
+                                    :index="'/subject/' + list[i].src">总题库</el-menu-item>
                                 <el-menu-item class="option"
-                                    :index="'/newHome/rightWrong/' + list[i].src">判断题</el-menu-item>
+                                    :index="'/rightWrong/' + list[i].src">判断题</el-menu-item>
                                 <el-menu-item class="option"
-                                    :index="'/newHome/singleChoice/' + list[i].src">单选题</el-menu-item>
+                                    :index="'/singleChoice/' + list[i].src">单选题</el-menu-item>
                                 <el-menu-item class="option"
-                                    :index="'/newHome/multipleChoice/' + list[i].src">多选题</el-menu-item>
+                                    :index="'/multipleChoice/' + list[i].src">多选题</el-menu-item>
                                 <el-menu-item class="option"
-                                    :index="'/newHome/fillingBlank/' + list[i].src">填空题</el-menu-item>
+                                    :index="'/fillingBlank/' + list[i].src">填空题</el-menu-item>
                                 <el-menu-item class="option"
-                                    :index="'/newHome/examPage/' + list[i].src + '/1'">在线练习</el-menu-item>
+                                    :index="'/examPage/' + list[i].src + '/1'">在线练习</el-menu-item>
                             </el-menu-item-group>
                         </el-submenu>
                     </el-menu>
